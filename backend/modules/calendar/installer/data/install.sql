@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS `calendar_events` (
+	`id` int(11) NOT NULL,
+	`revision_id` int(11) NOT NULL auto_increment,
+	`user_id` int(11) NOT NULL,
+	`meta_id` int(11) NOT NULL,
+	`language` varchar(5) NOT NULL,
+	`title` varchar(255) NOT NULL,
+	`introduction` text,
+	`description` text,
+	`minimum_age` varchar(255),
+	`entrance` varchar(255),
+	`location` varchar(255),
+	`start` TIMESTAMP NOT NULL,
+	`end` TIMESTAMP NOT NULL,
+	`status` enum('active','archived','draft') NOT NULL,
+	`hidden` enum('N','Y') NOT NULL default 'N',
+	`publish_on` datetime NOT NULL,
+	`created_on` datetime NOT NULL,
+	`edited_on` datetime NOT NULL,
+	PRIMARY KEY (`revision_id`),
+	KEY `idx_status_language_hidden` (`status`,`language`,`hidden`)
+)  ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1;

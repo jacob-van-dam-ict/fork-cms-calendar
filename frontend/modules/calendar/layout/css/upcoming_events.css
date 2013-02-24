@@ -1,0 +1,5 @@
+#upcoming_events{}
+#upcoming_events ul{list-style:none;}
+#upcoming_events ul li{text-transform:uppercase;font-weight:bold;}
+#upcoming_events ul li span{font-weight:normal;display:inline-block;width:75px;}
+#upcoming_events ul li a{text-decoration:none;}

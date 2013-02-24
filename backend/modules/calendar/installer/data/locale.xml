@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<locale>
+	<frontend>
+		<calendar>
+			<item type="message" name="NoEvents">
+				<translation language="nl"><![CDATA[Geen agenda items beschikbaar]]></translation>
+				<translation language="en"><![CDATA[No calendar events available]]></translation>
+			</item>
+			<item type="message" name="BackToNewsPage">
+				<translation language="nl"><![CDATA[Terug naar nieuwspagina]]></translation>
+				<translation language="en"><![CDATA[Back to news page]]></translation>
+			</item>
+			<item type="label" name="Calendar">
+				<translation language="nl"><![CDATA[Agenda]]></translation>
+				<translation language="en"><![CDATA[Calendar]]></translation>
+			</item>
+			<item type="label" name="At">
+				<translation language="nl"><![CDATA[om]]></translation>
+				<translation language="en"><![CDATA[at]]></translation>
+			</item>
+			<item type="label" name="Begins">
+				<translation language="nl"><![CDATA[begint]]></translation>
+				<translation language="en"><![CDATA[begins]]></translation>
+			</item>
+			<item type="label" name="Ends">
+				<translation language="nl"><![CDATA[eindigt]]></translation>
+				<translation language="en"><![CDATA[ends]]></translation>
+			</item>
+			<item type="label" name="Entrance">
+				<translation language="nl"><![CDATA[entree]]></translation>
+				<translation language="en"><![CDATA[entrance]]></translation>
+			</item>
+			<item type="label" name="MinimumAge">
+				<translation language="nl"><![CDATA[minimale leeftijd]]></translation>
+				<translation language="en"><![CDATA[minimum age]]></translation>
+			</item>
+		</calendar>
+	</frontend>
+	<backend>
+		<pages>
+			<item type="label" name="UpcomingEvents">
+				<translation language="nl"><![CDATA[opkomende evenementen]]></translation>
+				<translation language="en"><![CDATA[upcomming events]]></translation>
+			</item>
+		</pages>
+		<calendar>
+			<item type="label" name="Entrance">
+				<translation language="nl"><![CDATA[entree]]></translation>
+				<translation language="en"><![CDATA[entrance]]></translation>
+			</item>
+			<item type="label" name="MinimumAge">
+				<translation language="nl"><![CDATA[minimale leeftijd]]></translation>
+				<translation language="en"><![CDATA[minimum age]]></translation>
+			</item>
+			<item type="label" name="Calendar">
+				<translation language="nl"><![CDATA[agenda]]></translation>
+				<translation language="en"><![CDATA[calendar]]></translation>
+			</item>
+			<item type="label" name="Calendar">
+				<translation language="nl"><![CDATA[agenda]]></translation>
+				<translation language="en"><![CDATA[calendar]]></translation>
+			</item>
+			<item type="label" name="Events">
+				<translation language="nl"><![CDATA[evenementen]]></translation>
+				<translation language="en"><![CDATA[events]]></translation>
+			</item>
+			<item type="label" name="StartOn">
+				<translation language="nl"><![CDATA[begint op]]></translation>
+				<translation language="en"><![CDATA[starts on]]></translation>
+			</item>
+			<item type="label" name="EndOn">
+				<translation language="nl"><![CDATA[eindigd op]]></translation>
+				<translation language="en"><![CDATA[ends on]]></translation>
+			</item>
+			<item type="label" name="Add">
+				<translation language="nl"><![CDATA[evenement toevoegen]]></translation>
+				<translation language="en"><![CDATA[add event]]></translation>
+			</item>
+			<item type="message" name="Added">
+				<translation language="nl"><![CDATA[Het evenement "%1$s" is toegevoegd.]]></translation>
+				<translation language="en"><![CDATA[The event "%1$s" was added.]]></translation>
+			</item>
+			<item type="message" name="ConfirmDelete">
+				<translation language="nl"><![CDATA[Ben je zeker dat je het evenement "%1$s" wil verwijderen?]]></translation>
+				<translation language="en"><![CDATA[Are your sure you want to delete the event "%1$s"?]]></translation>
+			</item>
+			<item type="message" name="Deleted">
+				<translation language="nl"><![CDATA[Het evenement "%1$s" is verwijderd.]]></translation>
+				<translation language="en"><![CDATA[The event "%1$s" is deleted.]]></translation>
+			</item>
+			<item type="message" name="EditEvent">
+				<translation language="nl"><![CDATA[bewerk evenement "%1$s"]]></translation>
+				<translation language="en"><![CDATA[edit event "%1$s"]]></translation>
+			</item>
+			<item type="message" name="Edited">
+				<translation language="nl"><![CDATA[Het evenement "%1$s" is opgeslagen.]]></translation>
+				<translation language="en"><![CDATA[The event "%1$s" was saved.]]></translation>
+			</item>
+			<item type="error" name="TextIsRequired">
+				<translation language="nl"><![CDATA[Geef de hoofdinhoud in.]]></translation>
+				<translation language="en"><![CDATA[Please enter main content.]]></translation>
+			</item>
+			<item type="error" name="IntroductionIsRequired">
+				<translation language="nl"><![CDATA[Geef de samenvatting in.]]></translation>
+				<translation language="en"><![CDATA[Please enter introduction content.]]></translation>
+			</item>
+			<item type="error" name="LocationIsRequired">
+				<translation language="nl"><![CDATA[Geef een locatie op.]]></translation>
+				<translation language="en"><![CDATA[Please enter the location.]]></translation>
+			</item>
+			<item type="label" name="PublishedEvents">
+				<translation language="nl"><![CDATA[Gepubliceerde evenementen]]></translation>
+				<translation language="en"><![CDATA[Published events]]></translation>
+			</item>
+			<item type="label" name="ItemsInWidget">
+				<translation language="nl"><![CDATA[Evenementen weergeven in widget]]></translation>
+				<translation language="en"><![CDATA[Items to display in the widget]]></translation>
+			</item>
+			<item type="label" name="GoogleMapsKey">
+				<translation language="nl"><![CDATA[Google Maps API key]]></translation>
+				<translation language="en"><![CDATA[Google Maps API key]]></translation>
+			</item>
+			<item type="label" name="UseGoogleMaps">
+				<translation language="nl"><![CDATA[Gebruik Google Maps]]></translation>
+				<translation language="en"><![CDATA[Use google maps]]></translation>
+			</item>
+			<item type="label" name="No">
+				<translation language="nl"><![CDATA[Nee]]></translation>
+				<translation language="en"><![CDATA[No]]></translation>
+			</item>
+			<item type="label" name="Yes">
+				<translation language="nl"><![CDATA[Ja]]></translation>
+				<translation language="en"><![CDATA[Yes]]></translation>
+			</item>
+		</calendar>
+	</backend>
+</locale>
