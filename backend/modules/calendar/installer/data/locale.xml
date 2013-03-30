@@ -43,6 +43,12 @@
 				<translation language="en"><![CDATA[upcomming events]]></translation>
 			</item>
 		</pages>
+		<core>
+		    <item type="label" name="Calendar">
+		        <translation language="nl"><![CDATA[agenda]]></translation>
+		        <translation language="en"><![CDATA[calendar]]></translation>
+		    </item>
+		</core>
 		<calendar>
 			<item type="label" name="Entrance">
 				<translation language="nl"><![CDATA[entree]]></translation>
