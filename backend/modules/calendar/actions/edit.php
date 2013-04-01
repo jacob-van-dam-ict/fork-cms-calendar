@@ -179,14 +179,14 @@ class BackendCalendarEdit extends BackendBaseActionEdit
 				$event['edited_on'] = BackendModel::getUTCDate();
 
 				$revision_id = BackendCalendarModel::update($event);
-				BackendModel::triggerEvent($this->getModule(), 'after_add', array('event' => $event));
+				BackendModel::triggerEvent($this->getModule(), 'after_edit', array('event' => $event));
 				BackendTagsModel::saveTags($event['id'], $this->frm->getField('tags')->getValue(), $this->URL->getModule());
 
 				if($event['status'] == 'active') {
 					BackendSearchModel::saveIndex($this->getModule(), $event['id'], array('title' => $event['title'], 'text' => $event['description'], 'introduction' => $event['introduction']));
 
 					if(BackendModel::getModuleSetting($this->getModule(), 'ping_services', false)) BackendModel::ping(SITE_URL.BackendModel::getURLForBlock('calendar', 'detail').'/'.$this->meta->getURL());
-					$this->redirect(BackendModel::createURLForAction('index').'&report=added&var='.urlencode($event['title']).'&highlight=row-'.$revision_id);
+					$this->redirect(BackendModel::createURLForAction('index').'&report=edited&var='.urlencode($event['title']).'&highlight=row-'.$revision_id);
 				} elseif($event['status'] == 'draft') {
 					$this->redirect(BackendModel::createURLForAction('edit').'&report=saved-as-draft&var='.urlencode($event['title']).'&id='.$event['id'].'&draft='.$revision_id.'&highlight=row-'.$revision_id);
 				}

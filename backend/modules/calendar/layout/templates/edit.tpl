@@ -2,7 +2,7 @@
 {include:{$BACKEND_CORE_PATH}/layout/templates/structure_start_module.tpl}
 
 <div class="pageTitle">
-	<h2>{$lblCalendar|ucfirst}: {$lblAdd}</h2>
+	<h2>{$lblCalendar|ucfirst}: {$lblEdit}</h2>
     <div class="buttonHolderRight">
         <a href="{$detail_url}/{$event.url}{option:event.revision_id}?revision={$event.revision_id}{/option:event.revision_id}" class="button icon iconZoom previewButton targetBlank">
             <span>{$lblView|ucfirst}</span>
